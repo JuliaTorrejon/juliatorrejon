@@ -6,4 +6,4 @@ It provides a collection of documentation, code templates and cheatsheets that I
 
 Feel free to use as you wish. Please email me comments or suggestions.
 
-![](/images/undraw_modern_professional_cyan.png)
+[![](images/undraw_modern_professional_cyan.png)](images/undraw_modern_professional_cyan.png)

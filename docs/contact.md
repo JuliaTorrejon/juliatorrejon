@@ -6,4 +6,4 @@ Reach out to me on anything related to coding! Even if I don't know much on the 
 - [LinkedIn](https://www.linkedin.com/in/juliatorrejon/)
 - [GitHub](https://github.com/JuliaTorrejon)
 
-![](/images/undraw_social_sharing_cyan.png)
+[![](images/undraw_social_sharing_cyan.png)](images/undraw_social_sharing_cyan.png)
