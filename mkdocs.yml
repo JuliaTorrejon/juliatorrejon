@@ -1,0 +1,49 @@
+# Project information
+site_name: Julia Torrejon
+site_description: 'Personal Site'
+site_author: 'Julia Torrejon'
+site_url: 'https://juliatorrejon.com'
+
+#Copyright
+copyright: 'Copyright &copy; 2020 Julia Torrejon'
+
+# Page tree
+nav:
+    - Overview: index.md
+    - About: about.md
+    - Documentation:
+      - Algorithms: documentation/algorithms.md
+      - Cloud: documentation/cloud.md
+      - Computer Science: documentation/computer-science.md
+      - Containers: documentation/containers.md
+      - Data Structure: documentation/data-structure.md
+      - DevOps: documentation/devops.md
+      - Microservices: documentation/microservices.md
+      - Python: documentation/python.md
+      - Software Development: documentation/software-development.md
+      - Software Testing: documentation/software-testing.md
+    - Portfolio: portfolio.md
+    - Contact: contact.md
+
+
+# Configuration
+theme:
+    name: 'material'
+    palette: 
+        primary: 'cyan'
+        accent: 'cyan'
+
+# Customization
+extra:
+    social:
+      - type: github-alt
+        link: https://github.com/juliatorrejon
+      - type: twitter
+        link: https://twitter.com/juliatorrejon
+      - type: linkedin
+        link: https://www.linkedin.com/in/juliatorrejon
+
+# Google Analytics
+google_analytics:
+    - 'UA-136334185-1'
+    - 'auto'
