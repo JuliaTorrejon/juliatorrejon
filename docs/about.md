@@ -36,7 +36,7 @@ University of Cambridge
 
 **<i class="fa fa-pencil"></i> MY ARTICLES**
 
-When I have free time I am writing technical articles. You can found all my articles on my [blog](http://www.juliatorrejon.com) or [Dev.to account](https://dev.to/juliatorrejon).
+When I have free time I am writing technical articles. You can found all my articles on my [blog](http://www.juliatorrejon.com) or [dev.to account](https://dev.to/juliatorrejon).
 
 **<i class="fa fa-graduation-cap"></i> LEARNING OR PLANNING TO LEARN**
 
