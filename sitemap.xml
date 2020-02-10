@@ -2,72 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://juliatorrejon.com/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/about/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/algorithms/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/cloud/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/computer-science/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/containers/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/data-structure/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/devops/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/microservices/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://juliatorrejon.com/documentation/object-oriented-programming/</loc>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/python/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/software-development/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/software-testing/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/portfolio/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/contact/</loc>
-     <lastmod>2020-02-02</lastmod>
+     <lastmod>2020-02-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
