@@ -1,5 +1,9 @@
 # Portfolio
 
+## Automated Selenium Testing with Browserstack
+
+I created various Python scripts for [open source](https://gitlab.developers.cam.ac.uk/) projects using Selenium in order to test that the functionalities expected work in the different desktop browsers using BrowserStack. 
+
 ### Bin Collection Day
 
 Find out your [bin collection](https://github.com/JuliaTorrejon/bin_collection) day and what bin needs to be collected.
