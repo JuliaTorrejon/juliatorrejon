@@ -1,6 +1,6 @@
 # Portfolio
 
-## Automated Selenium Testing with Browserstack
+### Automated Testing using Selenium and Browserstack
 
 I created various Python scripts for [open source](https://gitlab.developers.cam.ac.uk/) projects using Selenium in order to test that the functionalities expected work in the different desktop browsers using BrowserStack. 
 
