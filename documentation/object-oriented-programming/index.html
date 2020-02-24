@@ -369,6 +369,67 @@
     Principles of OOP
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inheritance" class="md-nav__link">
+    Inheritance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encapsulation" class="md-nav__link">
+    Encapsulation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polymorphism" class="md-nav__link">
+    Polymorphism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class" class="md-nav__link">
+    Class
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-definition-syntax" class="md-nav__link">
+    Class Definition Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-objects" class="md-nav__link">
+    Class Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method" class="md-nav__link">
+    Method
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -472,6 +533,67 @@
     Principles of OOP
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inheritance" class="md-nav__link">
+    Inheritance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encapsulation" class="md-nav__link">
+    Encapsulation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polymorphism" class="md-nav__link">
+    Polymorphism
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class" class="md-nav__link">
+    Class
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-definition-syntax" class="md-nav__link">
+    Class Definition Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-objects" class="md-nav__link">
+    Class Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method" class="md-nav__link">
+    Method
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -496,18 +618,71 @@
 <p>Additional benefits of OOP include code <strong>reusability</strong>, <strong>scalability</strong> and <strong>efficiency</strong>.</p>
 <h2 id="principles-of-oop">Principles of OOP</h2>
 <p>Object-oriented programming is based on the following concepts and fundamentals:</p>
-<ol>
-<li>Abstraction</li>
-<li>Encapsulation</li>
-<li>Inheritance</li>
-<li>Polymorphism</li>
-<li>Class</li>
-<li>Object</li>
-<li>Coupling</li>
-<li>Cohesion</li>
-<li>Composition</li>
-<li>Delegation</li>
-</ol>
+<h3 id="inheritance">Inheritance</h3>
+<p>Inheritance is a way of creating new class for using details of existing class without modifying it. </p>
+<p>The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).</p>
+<h3 id="encapsulation">Encapsulation</h3>
+<p>Hiding the private details of a class from other objects. We can restrict access to methods and variables. This prevents data from direct modification. In Python, we denote private attribute using underscore as prefix i.e single “ _ “ or double “ __“.</p>
+<h3 id="polymorphism">Polymorphism</h3>
+<p>Polymorphism is an ability to use common interface for multiple form (data types).</p>
+<h3 id="class">Class</h3>
+<p>A class is a holding structure which is used to create an object, also called a blueprint for an object. </p>
+<p>It holds attributes that make the state of object and methods which can be called upon those objects.  A class can hold both static and non-static methods.</p>
+<p>The simplest form of class definition looks like this:</p>
+<pre><code>class ClassName:
+    &lt;statement-1&gt;
+    .
+    .
+    .
+    &lt;statement-N&gt;
+</code></pre>
+
+<h4 id="class-definition-syntax">Class Definition Syntax</h4>
+<p>Class definitions, like function definitions (def statements) must be executed before they have any effect. </p>
+<p>In practice, the statements inside a class definition will usually be function definitions. The function definitions inside a class normally have a peculiar form of argument list, dictated by the calling conventions for methods.</p>
+<p>When a class definition is entered, a new namespace is created, and used as the local scope — thus, all assignments to local variables go into this new namespace. In particular, function definitions bind the name of the new function here.</p>
+<p>When a class definition is left normally (via the end), a class object is created. The original local scope (the one in effect just before the class definition was entered) is reinstated, and the class object is bound here to the class name given in the class definition header (<code>ClassName</code> in the example).</p>
+<h3 id="class-objects">Class Objects</h3>
+<p>An object is what you create from Class. You can create multiple instances of objects from a single class. Each object has values for the attributes which define their state. </p>
+<p>When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.</p>
+<p><em>Class objects</em> support two kinds of operations: attribute references and instantiation.</p>
+<p>Attribute references use the standard syntax used for all attribute references in Python: obj.name. Valid attribute names are all the names that were in the class’s namespace when the class object was created. So, if the class definition looked like this:</p>
+<pre><code>class MyClass:
+    &quot;&quot;&quot;A simple example class&quot;&quot;&quot;
+    i = 12345
+
+    def f(self):
+        return 'hello world'
+</code></pre>
+
+<p>Then <code>MyClass.i</code> and <code>MyClass.f</code> are valid attribute references, returning an integer and a function object, respectively. Class attributes can also be assigned to, so you can change the value of <code>MyClass.i</code> by assignment. <strong>doc</strong> is also a valid attribute, returning the docstring belonging to the class: <code>"A simple example class"</code>.</p>
+<p><em>Class instantiation</em> uses function notation. Just pretend that the class object is a parameterless function that returns a new instance of the class. For example (assuming the above class):</p>
+<p><code>x = MyClass()</code></p>
+<p>Creates a new instance of the class and assigns this object to the local variable <code>x</code>.</p>
+<p>The instantiation operation (“calling” a class object) creates an empty object. Many classes like to create objects with instances customized to a specific initial state. Therefore a class may define a special method named <strong>init</strong>(), like this:</p>
+<pre><code>def __init__(self):
+    self.data = []
+</code></pre>
+
+<p>When a class defines an <strong>init</strong>() method, class instantiation automatically invokes <strong>init</strong>() for the newly-created class instance. So in this example, a new, initialized instance can be obtained by:</p>
+<pre><code>x = MyClass()
+</code></pre>
+
+<p>Of course, the <strong>init</strong>() method may have arguments for greater flexibility. In that case, arguments given to the class instantiation operator are passed on to <strong>init</strong>(). For example,</p>
+<pre><code>&gt;&gt;&gt; class Complex:
+...     def __init__(self, realpart, imagpart):
+...         self.r = realpart
+...         self.i = imagpart
+...
+&gt;&gt;&gt; x = Complex(3.0, -4.5)
+&gt;&gt;&gt; x.r, x.i
+(3.0, -4.5)
+
+</code></pre>
+
+<h3 id="method">Method</h3>
+<p>Methods are functions defined inside the body of a class. They are used to define the behaviors of an object.</p>
+<p>References:<a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">The Python Tutorial</a></p>
                 
                   
                 
