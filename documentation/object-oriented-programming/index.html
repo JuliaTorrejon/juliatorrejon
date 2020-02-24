@@ -629,7 +629,7 @@
 <p>A class is a holding structure which is used to create an object, also called a blueprint for an object. </p>
 <p>It holds attributes that make the state of object and methods which can be called upon those objects.  A class can hold both static and non-static methods.</p>
 <p>The simplest form of class definition looks like this:</p>
-<pre><code>class ClassName:
+<pre><code class="python">class ClassName:
     &lt;statement-1&gt;
     .
     .
@@ -647,7 +647,7 @@
 <p>When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.</p>
 <p><em>Class objects</em> support two kinds of operations: attribute references and instantiation.</p>
 <p>Attribute references use the standard syntax used for all attribute references in Python: obj.name. Valid attribute names are all the names that were in the class’s namespace when the class object was created. So, if the class definition looked like this:</p>
-<pre><code>class MyClass:
+<pre><code class="python">class MyClass:
     &quot;&quot;&quot;A simple example class&quot;&quot;&quot;
     i = 12345
 
@@ -657,19 +657,21 @@
 
 <p>Then <code>MyClass.i</code> and <code>MyClass.f</code> are valid attribute references, returning an integer and a function object, respectively. Class attributes can also be assigned to, so you can change the value of <code>MyClass.i</code> by assignment. <strong>doc</strong> is also a valid attribute, returning the docstring belonging to the class: <code>"A simple example class"</code>.</p>
 <p><em>Class instantiation</em> uses function notation. Just pretend that the class object is a parameterless function that returns a new instance of the class. For example (assuming the above class):</p>
-<p><code>x = MyClass()</code></p>
+<pre><code class="python">x = MyClass()
+</code></pre>
+
 <p>Creates a new instance of the class and assigns this object to the local variable <code>x</code>.</p>
 <p>The instantiation operation (“calling” a class object) creates an empty object. Many classes like to create objects with instances customized to a specific initial state. Therefore a class may define a special method named <strong>init</strong>(), like this:</p>
-<pre><code>def __init__(self):
+<pre><code class="python">def __init__(self):
     self.data = []
 </code></pre>
 
 <p>When a class defines an <strong>init</strong>() method, class instantiation automatically invokes <strong>init</strong>() for the newly-created class instance. So in this example, a new, initialized instance can be obtained by:</p>
-<pre><code>x = MyClass()
+<pre><code class="python">x = MyClass()
 </code></pre>
 
 <p>Of course, the <strong>init</strong>() method may have arguments for greater flexibility. In that case, arguments given to the class instantiation operator are passed on to <strong>init</strong>(). For example,</p>
-<pre><code>&gt;&gt;&gt; class Complex:
+<pre><code class="python">&gt;&gt;&gt; class Complex:
 ...     def __init__(self, realpart, imagpart):
 ...         self.r = realpart
 ...         self.i = imagpart
