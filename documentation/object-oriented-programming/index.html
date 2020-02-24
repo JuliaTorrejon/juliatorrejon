@@ -629,13 +629,14 @@
 <p>A class is a holding structure which is used to create an object, also called a blueprint for an object. </p>
 <p>It holds attributes that make the state of object and methods which can be called upon those objects.  A class can hold both static and non-static methods.</p>
 <p>The simplest form of class definition looks like this:</p>
-<pre><code class="python">class ClassName:
-    &lt;statement-1&gt;
-    .
-    .
-    .
-    &lt;statement-N&gt;
-</code></pre>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">ClassName</span><span class="p">:</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">-</span><span class="mi">1</span><span class="o">&gt;</span>
+    <span class="o">.</span>
+    <span class="o">.</span>
+    <span class="o">.</span>
+    <span class="o">&lt;</span><span class="n">statement</span><span class="o">-</span><span class="n">N</span><span class="o">&gt;</span>
+</pre></div>
+
 
 <h4 id="class-definition-syntax">Class Definition Syntax</h4>
 <p>Class definitions, like function definitions (def statements) must be executed before they have any effect. </p>
@@ -647,40 +648,44 @@
 <p>When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.</p>
 <p><em>Class objects</em> support two kinds of operations: attribute references and instantiation.</p>
 <p>Attribute references use the standard syntax used for all attribute references in Python: obj.name. Valid attribute names are all the names that were in the class’s namespace when the class object was created. So, if the class definition looked like this:</p>
-<pre><code class="python">class MyClass:
-    &quot;&quot;&quot;A simple example class&quot;&quot;&quot;
-    i = 12345
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A simple example class&quot;&quot;&quot;</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
 
-    def f(self):
-        return 'hello world'
-</code></pre>
+    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
+</pre></div>
+
 
 <p>Then <code>MyClass.i</code> and <code>MyClass.f</code> are valid attribute references, returning an integer and a function object, respectively. Class attributes can also be assigned to, so you can change the value of <code>MyClass.i</code> by assignment. <strong>doc</strong> is also a valid attribute, returning the docstring belonging to the class: <code>"A simple example class"</code>.</p>
 <p><em>Class instantiation</em> uses function notation. Just pretend that the class object is a parameterless function that returns a new instance of the class. For example (assuming the above class):</p>
-<pre><code class="python">x = MyClass()
-</code></pre>
+<div class="codehilite"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
+</pre></div>
+
 
 <p>Creates a new instance of the class and assigns this object to the local variable <code>x</code>.</p>
 <p>The instantiation operation (“calling” a class object) creates an empty object. Many classes like to create objects with instances customized to a specific initial state. Therefore a class may define a special method named <strong>init</strong>(), like this:</p>
-<pre><code class="python">def __init__(self):
-    self.data = []
-</code></pre>
+<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
+</pre></div>
+
 
 <p>When a class defines an <strong>init</strong>() method, class instantiation automatically invokes <strong>init</strong>() for the newly-created class instance. So in this example, a new, initialized instance can be obtained by:</p>
-<pre><code class="python">x = MyClass()
-</code></pre>
+<div class="codehilite"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
+</pre></div>
+
 
 <p>Of course, the <strong>init</strong>() method may have arguments for greater flexibility. In that case, arguments given to the class instantiation operator are passed on to <strong>init</strong>(). For example,</p>
-<pre><code class="python">&gt;&gt;&gt; class Complex:
-...     def __init__(self, realpart, imagpart):
-...         self.r = realpart
-...         self.i = imagpart
-...
-&gt;&gt;&gt; x = Complex(3.0, -4.5)
-&gt;&gt;&gt; x.r, x.i
-(3.0, -4.5)
+<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="k">class</span> <span class="nc">Complex</span><span class="p">:</span>
+<span class="o">...</span>     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">realpart</span><span class="p">,</span> <span class="n">imagpart</span><span class="p">):</span>
+<span class="o">...</span>         <span class="bp">self</span><span class="o">.</span><span class="n">r</span> <span class="o">=</span> <span class="n">realpart</span>
+<span class="o">...</span>         <span class="bp">self</span><span class="o">.</span><span class="n">i</span> <span class="o">=</span> <span class="n">imagpart</span>
+<span class="o">...</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">Complex</span><span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.5</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span><span class="o">.</span><span class="n">r</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">i</span>
+<span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.5</span><span class="p">)</span>
+</pre></div>
 
-</code></pre>
 
 <h3 id="method">Method</h3>
 <p>Methods are functions defined inside the body of a class. They are used to define the behaviors of an object.</p>
