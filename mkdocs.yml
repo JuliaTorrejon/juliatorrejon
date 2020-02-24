@@ -34,6 +34,10 @@ theme:
         primary: 'cyan'
         accent: 'cyan'
 
+# Syntax highlighting
+markdown_extensions:
+  - codehilite
+
 # Customization
 extra:
     social:

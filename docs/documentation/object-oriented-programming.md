@@ -100,7 +100,6 @@ Of course, the __init__() method may have arguments for greater flexibility. In 
 >>> x = Complex(3.0, -4.5)
 >>> x.r, x.i
 (3.0, -4.5)
-
 ```
 
 ### Method
