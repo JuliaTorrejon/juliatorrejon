@@ -254,80 +254,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../algorithms/" title="Algorithms" class="md-nav__link">
-      Algorithms
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../cloud/" title="Cloud" class="md-nav__link">
-      Cloud
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../computer-science/" title="Computer Science" class="md-nav__link">
-      Computer Science
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../containers/" title="Containers" class="md-nav__link">
-      Containers
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../data-structure/" title="Data Structure" class="md-nav__link">
       Data Structure
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../devops/" title="DevOps" class="md-nav__link">
-      DevOps
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../microservices/" title="Microservices" class="md-nav__link">
-      Microservices
     </a>
   </li>
 
@@ -421,8 +349,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#method" class="md-nav__link">
-    Method
+  <a href="#instance-objects" class="md-nav__link">
+    Instance Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-objects" class="md-nav__link">
+    Method Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-and-instance-variables" class="md-nav__link">
+    Class and Instance Variables
   </a>
   
 </li>
@@ -440,42 +382,6 @@
   
 </nav>
     
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../python/" title="Python" class="md-nav__link">
-      Python
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../software-development/" title="Software Development" class="md-nav__link">
-      Software Development
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../software-testing/" title="Software Testing" class="md-nav__link">
-      Software Testing
-    </a>
   </li>
 
         
@@ -585,8 +491,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#method" class="md-nav__link">
-    Method
+  <a href="#instance-objects" class="md-nav__link">
+    Instance Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#method-objects" class="md-nav__link">
+    Method Objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-and-instance-variables" class="md-nav__link">
+    Class and Instance Variables
   </a>
   
 </li>
@@ -687,9 +607,101 @@
 </pre></div>
 
 
-<h3 id="method">Method</h3>
+<h3 id="instance-objects">Instance Objects</h3>
+<p>Now what can we do with instance objects? The only operations understood by instance objects are attribute references. There are two kinds of valid attribute names, <em>data attributes</em> and <em>methods</em>.</p>
+<p>Data attributes need not be declared; like local variables, they spring into existence when they are first assigned to. For example, if x is the instance of MyClass created above, the following piece of code will print the value 16, without leaving a trace:</p>
+<div class="codehilite"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">counter</span><span class="p">)</span>
+<span class="k">del</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span>
+</pre></div>
+
+
+<p>The other kind of instance attribute reference is a method. A method is a function that “belongs to” an object. (In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on. However, in the following discussion, we’ll use the term method exclusively to mean methods of class instance objects, unless explicitly stated otherwise.)</p>
+<p>Valid method names of an instance object depend on its class. By definition, all attributes of a class that are function objects define corresponding methods of its instances. So in our example, x.f is a valid method reference, since MyClass.f is a function, but x.i is not, since MyClass.i is not. But x.f is not the same thing as MyClass.f — it is a method object, not a function object.</p>
+<h3 id="method-objects">Method Objects</h3>
 <p>Methods are functions defined inside the body of a class. They are used to define the behaviors of an object.</p>
-<p>References:<a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">The Python Tutorial</a></p>
+<p>Usually, a method is called right after it is bound:</p>
+<div class="codehilite"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">f</span><span class="p">()</span>
+</pre></div>
+
+
+<p>In the MyClass example, this will return the string 'hello world'. However, it is not necessary to call a method right away: x.f is a method object, and can be stored away and called at a later time. For example:</p>
+<div class="codehilite"><pre><span></span><span class="n">xf</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">f</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">xf</span><span class="p">())</span>
+</pre></div>
+
+
+<p>will continue to print hello world until the end of time.</p>
+<p>What exactly happens when a method is called? You may have noticed that x.f() was called without an argument above, even though the function definition for f() specified an argument. What happened to the argument? Surely Python raises an exception when a function that requires an argument is called without any — even if the argument isn’t actually used…</p>
+<p>Actually, you may have guessed the answer: the special thing about methods is that the instance object is passed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.f(x). In general, calling a method with a list of n arguments is equivalent to calling the corresponding function with an argument list that is created by inserting the method’s instance object before the first argument.</p>
+<p>If you still don’t understand how methods work, a look at the implementation can perhaps clarify matters. When a non-data attribute of an instance is referenced, the instance’s class is searched. If the name denotes a valid class attribute that is a function object, a method object is created by packing (pointers to) the instance object and the function object just found together in an abstract object: this is the method object. When the method object is called with an argument list, a new argument list is constructed from the instance object and the argument list, and the function object is called with this new argument list.</p>
+<h3 id="class-and-instance-variables">Class and Instance Variables</h3>
+<p>Generally speaking, instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class:</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
+
+    <span class="n">kind</span> <span class="o">=</span> <span class="s1">&#39;canine&#39;</span>         <span class="c1"># class variable shared by all instances</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>    <span class="c1"># instance variable unique to each instance</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">kind</span>                  <span class="c1"># shared by all dogs</span>
+<span class="s1">&#39;canine&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">kind</span>                  <span class="c1"># shared by all dogs</span>
+<span class="s1">&#39;canine&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">name</span>                  <span class="c1"># unique to d</span>
+<span class="s1">&#39;Fido&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">name</span>                  <span class="c1"># unique to e</span>
+<span class="s1">&#39;Buddy&#39;</span>
+</pre></div>
+
+
+<p>As discussed in A Word About Names and Objects, shared data can have possibly surprising effects with involving mutable objects such as lists and dictionaries. For example, the tricks list in the following code should not be used as a class variable because just a single list would be shared by all Dog instances:</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
+
+    <span class="n">tricks</span> <span class="o">=</span> <span class="p">[]</span>             <span class="c1"># mistaken use of a class variable</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+
+    <span class="k">def</span> <span class="nf">add_trick</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trick</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trick</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;roll over&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;play dead&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">tricks</span>                <span class="c1"># unexpectedly shared by all dogs</span>
+<span class="p">[</span><span class="s1">&#39;roll over&#39;</span><span class="p">,</span> <span class="s1">&#39;play dead&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Correct design of the class should use an instance variable instead:</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span> <span class="o">=</span> <span class="p">[]</span>    <span class="c1"># creates a new empty list for each dog</span>
+
+    <span class="k">def</span> <span class="nf">add_trick</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trick</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trick</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;roll over&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;play dead&#39;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">tricks</span>
+<span class="p">[</span><span class="s1">&#39;roll over&#39;</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">tricks</span>
+<span class="p">[</span><span class="s1">&#39;play dead&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>References: <a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">The Python Tutorial</a></p>
                 
                   
                 
@@ -711,7 +723,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../microservices/" title="Microservices" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../data-structure/" title="Data Structure" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -720,19 +732,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Microservices
+                Data Structure
               </span>
             </div>
           </a>
         
         
-          <a href="../python/" title="Python" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../portfolio/" title="Portfolio" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Python
+                Portfolio
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
