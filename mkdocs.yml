@@ -13,14 +13,15 @@ nav:
     - About: about.md
     - Documentation:
       #- Algorithms: documentation/algorithms.md
+      - Big O Notation: documentation/big-o-notation.md 
       #- Cloud: documentation/cloud.md
       #- Computer Science: documentation/computer-science.md
       #- Containers: documentation/containers.md
-      - Data Structure: documentation/data-structure.md
+      - Data Structures: documentation/data-structure.md
       #- DevOps: documentation/devops.md
       #- Microservices: documentation/microservices.md
       - Object Oriented Programming: documentation/object-oriented-programming.md
-      #- Python: documentation/python.md
+      - Python: documentation/python.md
       #- Software Development: documentation/software-development.md
       #- Software Testing: documentation/software-testing.md
     - Portfolio: portfolio.md

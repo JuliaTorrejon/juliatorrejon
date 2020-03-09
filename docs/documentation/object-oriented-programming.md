@@ -1,6 +1,7 @@
 # Object Oriented Programming
 
-Object-oriented programming (OOP) is a programming language that is used to solve problems by thinking in terms of real-world objects or data rather than functions and logic.
+!!! info
+    Object-oriented programming (OOP) is a programming language that is used to solve problems by thinking in terms of real-world objects or data rather than functions and logic.
 
 Additional benefits of OOP include code **reusability**, **scalability** and **efficiency**.
 
@@ -27,4 +28,7 @@ Object-oriented programming is based on the following concepts and fundamentals:
 | **Superclasss**   | A class from which other classes are derived. Contains the master definitions of attributes and methods that all derived classes will use |  
 
 
-Resources: [The Python Tutorial](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes)
+### Resources
+
+[Python Docs](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes)
+[Class Definitions](https://docs.python.org/3/tutorial/classes.html#classes)
