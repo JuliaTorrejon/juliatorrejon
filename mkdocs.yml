@@ -12,8 +12,7 @@ nav:
     - Overview: index.md
     - About: about.md
     - Documentation:
-      #- Algorithms: documentation/algorithms.md
-      - Big O Notation: documentation/big-o-notation.md 
+      - Algorithms: documentation/algorithms.md
       #- Cloud: documentation/cloud.md
       #- Computer Science: documentation/computer-science.md
       #- Containers: documentation/containers.md
