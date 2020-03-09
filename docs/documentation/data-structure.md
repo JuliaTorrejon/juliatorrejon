@@ -16,8 +16,7 @@
 
 # Lists
 
-!!! info
-    "A list is a collection of items where each item holds a relative position with respect to the others."
+A list is a collection of items where each item holds a relative position with respect to the others.
 
 The members of a list are commonly refered to as **nodes**. When each node holds a reference to the next node in the list, we call this a singly linked list. When each node holds a reference to both the next and previous nodes in the list, we call this a doubly linked list.
 
@@ -46,3 +45,4 @@ The structure of an unordered list, as described above, is a collection of items
 
 [Practical Algorithms & Data Structures](https://bradfieldcs.com/algos/recursion/dynamic-programming/)
 [Data Structures - Python Docs](https://docs.python.org/3/tutorial/datastructures.html)
+[Big O Cheat Sheet](https://www.bigocheatsheet.com/)
