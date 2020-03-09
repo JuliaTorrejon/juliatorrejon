@@ -6,7 +6,7 @@ I currently work at [University of Cambridge](https://www.uis.cam.ac.uk).
 
 **<i class="fa fa-briefcase"></i> WORK HISTORY**
 
-*Software Test Analyst (2017 - Present)* <br>
+**Software Test Analyst (2017 - Present)** <br>
 University of Cambridge
 
 - Conduct and analyse tests from business requirements collaborating across teams
@@ -16,7 +16,7 @@ University of Cambridge
 - Functional mobile testing (Performance, security, usability and compatibility) 
 - Cross Browser testing making sure that the system works across a number of web browsers
 
-*Junior Software Test Analyst (2016 - 2017)* <br>
+**Junior Software Test Analyst (2016 - 2017)** <br>
 University of Cambridge
 
 - Execute test scripts 
@@ -28,17 +28,17 @@ University of Cambridge
 
 **<i class="fa fa-comments"></i> VOLUNTEER EXPERIENCE**
 
-*Co-Organiser • GDG Cambridge (Google Developer Group)*
+***Co-Organiser • GDG Cambridge (Google Developer Group)**
 
 Organiser of a Google Developer Group passionate about tech & IT, who is dedicated to helping others learn and
 connect planning and hosting meetup events on a wide range of technical topics.
 
-*Co-Facilitator • Tech Community Of Practice (University of Cambridge)*
+**Co-Facilitator • Tech Community Of Practice (University of Cambridge)**
 
 As a Co-Facilitator of this community of practice, my aim is to help everyone come together to support each other,
 collaborate, and share techniques and advice, whatever those may be.
 
-*Co-Organiser • Cross University Testing Exchange (University of Cambridge)*
+**Co-Organiser • Cross University Testing Exchange (University of Cambridge)**
 
 Help with the organisation for a Higher Education Software Testing conference hosted at the University of
 Cambridge with representation from a high number of UK universities.
