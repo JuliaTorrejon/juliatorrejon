@@ -28,7 +28,7 @@ University of Cambridge
 
 **<i class="fa fa-comments"></i> VOLUNTEER EXPERIENCE**
 
-***Co-Organiser • GDG Cambridge (Google Developer Group)**
+**Co-Organiser • GDG Cambridge (Google Developer Group)**
 
 Organiser of a Google Developer Group passionate about tech & IT, who is dedicated to helping others learn and
 connect planning and hosting meetup events on a wide range of technical topics.
