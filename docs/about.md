@@ -2,7 +2,7 @@
 
 Hello! I am a Software Test Analyst and I like writing. I live in Cambridge, UK. I am passionate about DevOps.
 
-I currently work for [University of Cambridge](https://www.uis.cam.ac.uk) and I love what I do.
+I currently work at [University of Cambridge](https://www.uis.cam.ac.uk).
 
 **<i class="fa fa-briefcase"></i> WORK HISTORY**
 
@@ -11,7 +11,6 @@ University of Cambridge
 
 - Conduct and analyse tests from business requirements collaborating across teams
 - Prepare test plans and design, build and execute test scripts to test software components
-- Demonstrate the business condition under test and the expected results
 - Create instructions to be followed for each type of user
 - Ensure the work is carried out in accordance with the schedule and the quality requirements
 - Functional mobile testing (Performance, security, usability and compatibility) 
@@ -21,14 +20,12 @@ University of Cambridge
 University of Cambridge
 
 - Execute test scripts 
-- Demonstrate the business condition under test and the expected results
 - Identify and analyse defects where there is deviation from expected results
 - Provide feedback to the development team
 - Ensure the work is carried out in accordance with the quality requirements
 - Ensure that own tests meet the quality standards set
-- Identify testing risks and escalates when appropriate
 - Identify improvements to testing processes
-- Follow the Quality Management System
+
 
 **<i class="fa fa-stack-overflow"></i> STACK OVERFLOW**
 
@@ -36,7 +33,7 @@ University of Cambridge
 
 **<i class="fa fa-pencil"></i> MY ARTICLES**
 
-When I have free time I am writing technical articles. You can found all my articles on my [blog](http://www.juliatorrejon.com) or [dev.to account](https://dev.to/juliatorrejon).
+When I have free time I write technical articles and documentation. You can found all my articles on my [blog](http://www.juliatorrejon.com) or [dev.to account](https://dev.to/juliatorrejon).
 
 **<i class="fa fa-graduation-cap"></i> LEARNING OR PLANNING TO LEARN**
 
