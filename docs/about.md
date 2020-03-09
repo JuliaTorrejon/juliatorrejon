@@ -26,6 +26,28 @@ University of Cambridge
 - Ensure that own tests meet the quality standards set
 - Identify improvements to testing processes
 
+**<i class="fa fa-comments"></i> VOLUNTEER EXPERIENCE**
+
+*Co-Organiser • GDG Cambridge (Google Developer Group)*
+
+Organiser of a Google Developer Group passionate about tech & IT, who is dedicated to helping others learn and
+connect planning and hosting meetup events on a wide range of technical topics.
+
+*Co-Facilitator • Tech Community Of Practice (University of Cambridge)*
+
+As a Co-Facilitator of this community of practice, my aim is to help everyone come together to support each other,
+collaborate, and share techniques and advice, whatever those may be.
+
+*Co-Organiser • Cross University Testing Exchange (University of Cambridge)*
+
+Help with the organisation for a Higher Education Software Testing conference hosted at the University of
+Cambridge with representation from a high number of UK universities.
+
+**<i class="fa fa-github"></i> OPEN SOURCE**
+
+I love freedom and flexibility about open source projects. Contribution to several projects where I raised issues found on the code or documentation, to writing automated tests for a few projects (See portfolio for further information).
+
+I have contributed by raising an [accessibility testing issue[] [https://gitlab.com/gitlab-org/gitlab/-/issues/207822](https://github.com/dmytrodanylyk?tab=repositories) on [GitLab](https://gitlab.com/juliatorrejon)
 
 **<i class="fa fa-stack-overflow"></i> STACK OVERFLOW**
 
