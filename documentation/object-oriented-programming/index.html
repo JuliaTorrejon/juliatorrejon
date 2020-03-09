@@ -297,81 +297,6 @@
     Principles of OOP
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#encapsulation" class="md-nav__link">
-    Encapsulation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#polymorphism" class="md-nav__link">
-    Polymorphism
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class" class="md-nav__link">
-    Class
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#class-definition-syntax" class="md-nav__link">
-    Class Definition Syntax
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class-objects" class="md-nav__link">
-    Class Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instance-objects" class="md-nav__link">
-    Instance Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#method-objects" class="md-nav__link">
-    Method Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class-and-instance-variables" class="md-nav__link">
-    Class and Instance Variables
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
       
@@ -439,81 +364,6 @@
     Principles of OOP
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#encapsulation" class="md-nav__link">
-    Encapsulation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#polymorphism" class="md-nav__link">
-    Polymorphism
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class" class="md-nav__link">
-    Class
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#class-definition-syntax" class="md-nav__link">
-    Class Definition Syntax
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class-objects" class="md-nav__link">
-    Class Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#instance-objects" class="md-nav__link">
-    Instance Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#method-objects" class="md-nav__link">
-    Method Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#class-and-instance-variables" class="md-nav__link">
-    Class and Instance Variables
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
       
@@ -538,170 +388,81 @@
 <p>Additional benefits of OOP include code <strong>reusability</strong>, <strong>scalability</strong> and <strong>efficiency</strong>.</p>
 <h2 id="principles-of-oop">Principles of OOP</h2>
 <p>Object-oriented programming is based on the following concepts and fundamentals:</p>
-<h3 id="inheritance">Inheritance</h3>
-<p>Inheritance is a way of creating new class for using details of existing class without modifying it. </p>
-<p>The newly formed class is a derived class (or child class). Similarly, the existing class is a base class (or parent class).</p>
-<h3 id="encapsulation">Encapsulation</h3>
-<p>Hiding the private details of a class from other objects. We can restrict access to methods and variables. This prevents data from direct modification. In Python, we denote private attribute using underscore as prefix i.e single “ _ “ or double “ __“.</p>
-<h3 id="polymorphism">Polymorphism</h3>
-<p>Polymorphism is an ability to use common interface for multiple form (data types).</p>
-<h3 id="class">Class</h3>
-<p>A class is a holding structure which is used to create an object, also called a blueprint for an object. </p>
-<p>It holds attributes that make the state of object and methods which can be called upon those objects.  A class can hold both static and non-static methods.</p>
-<p>The simplest form of class definition looks like this:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">ClassName</span><span class="p">:</span>
-    <span class="o">&lt;</span><span class="n">statement</span><span class="o">-</span><span class="mi">1</span><span class="o">&gt;</span>
-    <span class="o">.</span>
-    <span class="o">.</span>
-    <span class="o">.</span>
-    <span class="o">&lt;</span><span class="n">statement</span><span class="o">-</span><span class="n">N</span><span class="o">&gt;</span>
-</pre></div>
-
-
-<h4 id="class-definition-syntax">Class Definition Syntax</h4>
-<p>Class definitions, like function definitions (def statements) must be executed before they have any effect. </p>
-<p>In practice, the statements inside a class definition will usually be function definitions. The function definitions inside a class normally have a peculiar form of argument list, dictated by the calling conventions for methods.</p>
-<p>When a class definition is entered, a new namespace is created, and used as the local scope — thus, all assignments to local variables go into this new namespace. In particular, function definitions bind the name of the new function here.</p>
-<p>When a class definition is left normally (via the end), a class object is created. The original local scope (the one in effect just before the class definition was entered) is reinstated, and the class object is bound here to the class name given in the class definition header (<code>ClassName</code> in the example).</p>
-<h3 id="class-objects">Class Objects</h3>
-<p>An object is what you create from Class. You can create multiple instances of objects from a single class. Each object has values for the attributes which define their state. </p>
-<p>When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.</p>
-<p><em>Class objects</em> support two kinds of operations: attribute references and instantiation.</p>
-<p>Attribute references use the standard syntax used for all attribute references in Python: obj.name. Valid attribute names are all the names that were in the class’s namespace when the class object was created. So, if the class definition looked like this:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;A simple example class&quot;&quot;&quot;</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
-
-    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
-</pre></div>
-
-
-<p>Then <code>MyClass.i</code> and <code>MyClass.f</code> are valid attribute references, returning an integer and a function object, respectively. Class attributes can also be assigned to, so you can change the value of <code>MyClass.i</code> by assignment. <strong>doc</strong> is also a valid attribute, returning the docstring belonging to the class: <code>"A simple example class"</code>.</p>
-<p><em>Class instantiation</em> uses function notation. Just pretend that the class object is a parameterless function that returns a new instance of the class. For example (assuming the above class):</p>
-<div class="codehilite"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
-</pre></div>
-
-
-<p>Creates a new instance of the class and assigns this object to the local variable <code>x</code>.</p>
-<p>The instantiation operation (“calling” a class object) creates an empty object. Many classes like to create objects with instances customized to a specific initial state. Therefore a class may define a special method named <strong>init</strong>(), like this:</p>
-<div class="codehilite"><pre><span></span><span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-    <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">[]</span>
-</pre></div>
-
-
-<p>When a class defines an <strong>init</strong>() method, class instantiation automatically invokes <strong>init</strong>() for the newly-created class instance. So in this example, a new, initialized instance can be obtained by:</p>
-<div class="codehilite"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">MyClass</span><span class="p">()</span>
-</pre></div>
-
-
-<p>Of course, the <strong>init</strong>() method may have arguments for greater flexibility. In that case, arguments given to the class instantiation operator are passed on to <strong>init</strong>(). For example,</p>
-<div class="codehilite"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="k">class</span> <span class="nc">Complex</span><span class="p">:</span>
-<span class="o">...</span>     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">realpart</span><span class="p">,</span> <span class="n">imagpart</span><span class="p">):</span>
-<span class="o">...</span>         <span class="bp">self</span><span class="o">.</span><span class="n">r</span> <span class="o">=</span> <span class="n">realpart</span>
-<span class="o">...</span>         <span class="bp">self</span><span class="o">.</span><span class="n">i</span> <span class="o">=</span> <span class="n">imagpart</span>
-<span class="o">...</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">Complex</span><span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.5</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span><span class="o">.</span><span class="n">r</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">i</span>
-<span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">4.5</span><span class="p">)</span>
-</pre></div>
-
-
-<h3 id="instance-objects">Instance Objects</h3>
-<p>Now what can we do with instance objects? The only operations understood by instance objects are attribute references. There are two kinds of valid attribute names, <em>data attributes</em> and <em>methods</em>.</p>
-<p>Data attributes need not be declared; like local variables, they spring into existence when they are first assigned to. For example, if x is the instance of MyClass created above, the following piece of code will print the value 16, without leaving a trace:</p>
-<div class="codehilite"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">while</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
-    <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">*</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">counter</span><span class="p">)</span>
-<span class="k">del</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span>
-</pre></div>
-
-
-<p>The other kind of instance attribute reference is a method. A method is a function that “belongs to” an object. (In Python, the term method is not unique to class instances: other object types can have methods as well. For example, list objects have methods called append, insert, remove, sort, and so on. However, in the following discussion, we’ll use the term method exclusively to mean methods of class instance objects, unless explicitly stated otherwise.)</p>
-<p>Valid method names of an instance object depend on its class. By definition, all attributes of a class that are function objects define corresponding methods of its instances. So in our example, x.f is a valid method reference, since MyClass.f is a function, but x.i is not, since MyClass.i is not. But x.f is not the same thing as MyClass.f — it is a method object, not a function object.</p>
-<h3 id="method-objects">Method Objects</h3>
-<p>Methods are functions defined inside the body of a class. They are used to define the behaviors of an object.</p>
-<p>Usually, a method is called right after it is bound:</p>
-<div class="codehilite"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">f</span><span class="p">()</span>
-</pre></div>
-
-
-<p>In the MyClass example, this will return the string 'hello world'. However, it is not necessary to call a method right away: x.f is a method object, and can be stored away and called at a later time. For example:</p>
-<div class="codehilite"><pre><span></span><span class="n">xf</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">f</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">xf</span><span class="p">())</span>
-</pre></div>
-
-
-<p>will continue to print hello world until the end of time.</p>
-<p>What exactly happens when a method is called? You may have noticed that x.f() was called without an argument above, even though the function definition for f() specified an argument. What happened to the argument? Surely Python raises an exception when a function that requires an argument is called without any — even if the argument isn’t actually used…</p>
-<p>Actually, you may have guessed the answer: the special thing about methods is that the instance object is passed as the first argument of the function. In our example, the call x.f() is exactly equivalent to MyClass.f(x). In general, calling a method with a list of n arguments is equivalent to calling the corresponding function with an argument list that is created by inserting the method’s instance object before the first argument.</p>
-<p>If you still don’t understand how methods work, a look at the implementation can perhaps clarify matters. When a non-data attribute of an instance is referenced, the instance’s class is searched. If the name denotes a valid class attribute that is a function object, a method object is created by packing (pointers to) the instance object and the function object just found together in an abstract object: this is the method object. When the method object is called with an argument list, a new argument list is constructed from the instance object and the argument list, and the function object is called with this new argument list.</p>
-<h3 id="class-and-instance-variables">Class and Instance Variables</h3>
-<p>Generally speaking, instance variables are for data unique to each instance and class variables are for attributes and methods shared by all instances of the class:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
-
-    <span class="n">kind</span> <span class="o">=</span> <span class="s1">&#39;canine&#39;</span>         <span class="c1"># class variable shared by all instances</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>    <span class="c1"># instance variable unique to each instance</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">kind</span>                  <span class="c1"># shared by all dogs</span>
-<span class="s1">&#39;canine&#39;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">kind</span>                  <span class="c1"># shared by all dogs</span>
-<span class="s1">&#39;canine&#39;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">name</span>                  <span class="c1"># unique to d</span>
-<span class="s1">&#39;Fido&#39;</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">name</span>                  <span class="c1"># unique to e</span>
-<span class="s1">&#39;Buddy&#39;</span>
-</pre></div>
-
-
-<p>As discussed in A Word About Names and Objects, shared data can have possibly surprising effects with involving mutable objects such as lists and dictionaries. For example, the tricks list in the following code should not be used as a class variable because just a single list would be shared by all Dog instances:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
-
-    <span class="n">tricks</span> <span class="o">=</span> <span class="p">[]</span>             <span class="c1"># mistaken use of a class variable</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-
-    <span class="k">def</span> <span class="nf">add_trick</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trick</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trick</span><span class="p">)</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;roll over&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;play dead&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">tricks</span>                <span class="c1"># unexpectedly shared by all dogs</span>
-<span class="p">[</span><span class="s1">&#39;roll over&#39;</span><span class="p">,</span> <span class="s1">&#39;play dead&#39;</span><span class="p">]</span>
-</pre></div>
-
-
-<p>Correct design of the class should use an instance variable instead:</p>
-<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">Dog</span><span class="p">:</span>
-
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span> <span class="o">=</span> <span class="p">[]</span>    <span class="c1"># creates a new empty list for each dog</span>
-
-    <span class="k">def</span> <span class="nf">add_trick</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">trick</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tricks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trick</span><span class="p">)</span>
-
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Fido&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span> <span class="o">=</span> <span class="n">Dog</span><span class="p">(</span><span class="s1">&#39;Buddy&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;roll over&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">add_trick</span><span class="p">(</span><span class="s1">&#39;play dead&#39;</span><span class="p">)</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span><span class="o">.</span><span class="n">tricks</span>
-<span class="p">[</span><span class="s1">&#39;roll over&#39;</span><span class="p">]</span>
-<span class="o">&gt;&gt;&gt;</span> <span class="n">e</span><span class="o">.</span><span class="n">tricks</span>
-<span class="p">[</span><span class="s1">&#39;play dead&#39;</span><span class="p">]</span>
-</pre></div>
-
-
-<p>References: <a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">The Python Tutorial</a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Term</strong></th>
+<th align="center">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abstract Class</td>
+<td align="center">Defines the methods and common attributes of a set of classes that are conceptually similar. Abstract classes are never instantiated.</td>
+</tr>
+<tr>
+<td>Attribute</td>
+<td align="center">Data associated with an object (also called a data member).</td>
+</tr>
+<tr>
+<td>Class</td>
+<td align="center">Blueprint of an object—defines the methods and data of an object of its type.</td>
+</tr>
+<tr>
+<td>Constructor</td>
+<td align="center">Special method that is invoked when an object is created.</td>
+</tr>
+<tr>
+<td>Encapsulation</td>
+<td align="center">Any kind of hiding. Objects encapsulate their data. Abstract classes encapsulate their derived concrete classes.</td>
+</tr>
+<tr>
+<td>Derived Class</td>
+<td align="center">A class that is specialized from a superclass. Contains all of the attributes and methods of the superclass</td>
+</tr>
+<tr>
+<td>Destructor</td>
+<td align="center">Special method that is invoked when an object is deleted.</td>
+</tr>
+<tr>
+<td>Functional</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Descomposition</td>
+<td align="center">A method of analysis in which a problem is broken into smaller and smaller functions.</td>
+</tr>
+<tr>
+<td>Inheritance</td>
+<td align="center">The way that a class is specialized, used to relate derived classes from their abstractions.</td>
+</tr>
+<tr>
+<td>Instance</td>
+<td align="center">A particular object of a class.</td>
+</tr>
+<tr>
+<td>Instantiation</td>
+<td align="center">The process of creating an instance of a class.MemberEither data or method of a class.</td>
+</tr>
+<tr>
+<td>Method</td>
+<td align="center">Functions that are associated with an object.</td>
+</tr>
+<tr>
+<td>Object</td>
+<td align="center">An entity with responsibilities. A special, self-contained holder of both data and methods that operate on that data.</td>
+</tr>
+<tr>
+<td>Polymorphism</td>
+<td align="center">The ability of related objects to implement methods that are specialized to their type.</td>
+</tr>
+<tr>
+<td>Superclasss</td>
+<td align="center">A class from which other classes are derived. Contains the master definitions of attributes and methods that all derived classes will use</td>
+</tr>
+</tbody>
+</table>
+<p>Resources: <a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">The Python Tutorial</a></p>
                 
                   
                 
