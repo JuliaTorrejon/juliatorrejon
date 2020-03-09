@@ -1,6 +1,6 @@
 # Data Strcutures
 
-[![](images/data-structures.jpeg)](images/data-structure.jpeg)
+[![](images/data-structures.jpeg)](images/data-structures.jpeg)
 
 | Data Structures       | Algorithms           | 
 | -------------         |:-------------:       | 
@@ -43,6 +43,6 @@ The structure of an unordered list, as described above, is a collection of items
 
 ### Resources
 
-[Practical Algorithms & Data Structures](https://bradfieldcs.com/algos/recursion/dynamic-programming/)
-[Data Structures - Python Docs](https://docs.python.org/3/tutorial/datastructures.html)
-[Big O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [Practical Algorithms & Data Structures](https://bradfieldcs.com/algos/recursion/dynamic-programming/)
+- [Data Structures - Python Docs](https://docs.python.org/3/tutorial/datastructures.html)
+- [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
