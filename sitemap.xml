@@ -11,12 +11,22 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>https://juliatorrejon.com/documentation/big-o-notation/</loc>
+     <lastmod>2020-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://juliatorrejon.com/documentation/data-structure/</loc>
      <lastmod>2020-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://juliatorrejon.com/documentation/object-oriented-programming/</loc>
+     <lastmod>2020-03-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://juliatorrejon.com/documentation/python/</loc>
      <lastmod>2020-03-09</lastmod>
      <changefreq>daily</changefreq>
     </url>

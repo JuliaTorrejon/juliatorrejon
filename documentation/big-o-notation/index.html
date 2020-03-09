@@ -13,7 +13,7 @@
         <meta name="description" content="Personal Site">
       
       
-        <link rel="canonical" href="https://juliatorrejon.com/documentation/object-oriented-programming/">
+        <link rel="canonical" href="https://juliatorrejon.com/documentation/big-o-notation/">
       
       
         <meta name="author" content="Julia Torrejon">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Object Oriented Programming - Julia Torrejon</title>
+        <title>Big O Notation - Julia Torrejon</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#object-oriented-programming" tabindex="1" class="md-skip">
+      <a href="#big-o-notations" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Object Oriented Programming
+                Big O Notation
               
             </span>
           
@@ -252,11 +252,118 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../big-o-notation/" title="Big O Notation" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Big O Notation
+      </label>
+    
+    <a href="./" title="Big O Notation" class="md-nav__link md-nav__link--active">
       Big O Notation
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#performance-of-python-types" class="md-nav__link">
+    Performance of Python Types
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lists" class="md-nav__link">
+    Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indexing-assigning" class="md-nav__link">
+    Indexing &amp; Assigning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appending-concatenating" class="md-nav__link">
+    Appending &amp; Concatenating
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popping-shifting-deleting" class="md-nav__link">
+    Popping, Shifting &amp; Deleting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iteration" class="md-nav__link">
+    Iteration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slicing" class="md-nav__link">
+    Slicing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplying" class="md-nav__link">
+    Multiplying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reversing" class="md-nav__link">
+    Reversing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting" class="md-nav__link">
+    Sorting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -276,62 +383,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Object Oriented Programming
-      </label>
-    
-    <a href="./" title="Object Oriented Programming" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../object-oriented-programming/" title="Object Oriented Programming" class="md-nav__link">
       Object Oriented Programming
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#principles-of-oop" class="md-nav__link">
-    Principles of OOP
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    Resources
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -397,16 +453,72 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#principles-of-oop" class="md-nav__link">
-    Principles of OOP
+  <a href="#performance-of-python-types" class="md-nav__link">
+    Performance of Python Types
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    Resources
+  <a href="#lists" class="md-nav__link">
+    Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indexing-assigning" class="md-nav__link">
+    Indexing &amp; Assigning
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#appending-concatenating" class="md-nav__link">
+    Appending &amp; Concatenating
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#popping-shifting-deleting" class="md-nav__link">
+    Popping, Shifting &amp; Deleting
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iteration" class="md-nav__link">
+    Iteration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slicing" class="md-nav__link">
+    Slicing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiplying" class="md-nav__link">
+    Multiplying
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reversing" class="md-nav__link">
+    Reversing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting" class="md-nav__link">
+    Sorting
   </a>
   
 </li>
@@ -433,85 +545,103 @@
               
                 
                 
-                <h1 id="object-oriented-programming">Object Oriented Programming</h1>
-<p>!!! info
-    Object-oriented programming (OOP) is a programming language that is used to solve problems by thinking in terms of real-world objects or data rather than functions and logic.</p>
-<p>Additional benefits of OOP include code <strong>reusability</strong>, <strong>scalability</strong> and <strong>efficiency</strong>.</p>
-<h2 id="principles-of-oop">Principles of OOP</h2>
-<p>Object-oriented programming is based on the following concepts and fundamentals:</p>
+                <h1 id="big-o-notations">Big O Notations</h1>
+<h2 id="performance-of-python-types">Performance of Python Types</h2>
+<p>This is the big O notation performance for the most commonly-used operations supported by Python lists and dictionaries.</p>
+<h3 id="lists">Lists</h3>
+<p>The designers of the Python list data type had many choices to make during implementation. Each choice affected how quickly the list could perform operations. One decision they made was to optimize the list implementation for common operations.</p>
+<h3 id="indexing-assigning">Indexing &amp; Assigning</h3>
+<p>Two common operations are indexing and assigning to an index position. In Python lists, values are assigned to and retrieved from specific, known memory locations. No matter how large the list is, index lookup and assignment take a constant amount of time and are thus O(1)O(1).</p>
+<h3 id="appending-concatenating">Appending &amp; Concatenating</h3>
+<p>Another common programming need is to grow a list. There are two ways to do this: you can use the append method or the concatenation operator (+).</p>
+<p>The append method is “amortized” O(1)O(1). In most cases, the memory required to append a new value has already been allocated, which is strictly O(1)O(1). Once the C array underlying the list has been exhausted, it must be expanded in order to accomodate further appends. This periodic expansion process is linear relative to the size of the new array, which seems to contradict our claim that appending is O(1)O(1).</p>
+<p>However, the expansion rate is cleverly chosen to be three times the previous size of the array; when we spread the expansion cost over each additional append afforded by this extra space, the cost per append is O(1)O(1) on an amortized basis.</p>
+<p>On the other hand, concatenation is O(k)O(k), where kk is the size of the concatenated list, since kk sequential assignment operations must occur.</p>
+<h3 id="popping-shifting-deleting">Popping, Shifting &amp; Deleting</h3>
+<p>Popping from a Python list is typically performed from the end but, by passing an index, you can pop from a specific position. When pop is called from the end, the operation is O(1)O(1), while calling pop from anywhere else is O(n)O(n). Why the difference?</p>
+<p>When an item is taken from the front of a Python list, all other elements in the list are shifted one position closer to the beginning. This is an unavoidable cost to allow O(1)O(1) index lookup, which is the more common operation.</p>
+<p>For the same reasons, inserting at an index is O(n)O(n); every subsequent element must be shifted one position closer to the end to accomodate the new element. Unsurprisingly, deletion behaves the same way.</p>
+<h3 id="iteration">Iteration</h3>
+<p>Iteration is O(n)O(n) because iterating over nn elements requires nn steps. This also explains why the in operator in Python is O(n)O(n): to determine whether an element is in a list, we must iterate over every element.</p>
+<h3 id="slicing">Slicing</h3>
+<p>Slice operations require more thought. To access the slice [a:b] of a list, we must iterate over every element between indices a and b. So, slice access is O(k)O(k), where kk is the size of the slice. Deleting a slice is O(n)O(n) for the same reason that deleting a single element is O(n)O(n): nn subsequent elements must be shifted toward the list's beginning.</p>
+<h3 id="multiplying">Multiplying</h3>
+<p>To understand list multiplication, remember that concatenation is O(k)O(k), where kk is the length of the concatenated list. It follows that multiplying a list is O(nk)O(nk), since multiplying a kk-sized list nn times will require k(n - 1)k(n−1) appends.</p>
+<h3 id="reversing">Reversing</h3>
+<p>Reversing a list is O(n)O(n) since we must reposition each element.</p>
+<h3 id="sorting">Sorting</h3>
+<p>Finally (and least intuitively), sorting in Python is O(n\log{n})O(nlogn) and beyond the scope of this book to demonstrate.</p>
+<p>For reference, we’ve summarized the performance characteristics of Python's list operations in the table below:</p>
 <table>
 <thead>
 <tr>
-<th><strong>Term</strong></th>
-<th align="center"><strong>Definition</strong></th>
+<th><strong>Operation</strong></th>
+<th align="center"><strong>Big O Efficiency</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Abstract Class</strong></td>
-<td align="center">Defines the methods and common attributes of a set of classes that are conceptually similar. Abstract classes are never instantiated.</td>
+<td>index []</td>
+<td align="center">O(1)</td>
 </tr>
 <tr>
-<td><strong>Attribute</strong></td>
-<td align="center">Data associated with an object (also called a data member).</td>
+<td>index assignment</td>
+<td align="center">O(1)</td>
 </tr>
 <tr>
-<td><strong>Class</strong></td>
-<td align="center">Blueprint of an object—defines the methods and data of an object of its type.</td>
+<td>append</td>
+<td align="center">O(1)</td>
 </tr>
 <tr>
-<td><strong>Constructor</strong></td>
-<td align="center">Special method that is invoked when an object is created.</td>
+<td>pop()</td>
+<td align="center">O(1)</td>
 </tr>
 <tr>
-<td><strong>Encapsulation</strong></td>
-<td align="center">Any kind of hiding. Objects encapsulate their data. Abstract classes encapsulate their derived concrete classes.</td>
+<td>pop(i)</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Derived Class</strong></td>
-<td align="center">A class that is specialized from a superclass. Contains all of the attributes and methods of the superclass</td>
+<td>insert(i, ittem)</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Destructor</strong></td>
-<td align="center">Special method that is invoked when an object is deleted.</td>
+<td>del operator</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Descomposition</strong></td>
-<td align="center">A method of analysis in which a problem is broken into smaller and smaller functions.</td>
+<td>iteration</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Inheritance</strong></td>
-<td align="center">The way that a class is specialized, used to relate derived classes from their abstractions.</td>
+<td>contains (in)</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Instance</strong></td>
-<td align="center">A particular object of a class.</td>
+<td>get slice [x:y]</td>
+<td align="center">O(k)</td>
 </tr>
 <tr>
-<td><strong>Instantiation</strong></td>
-<td align="center">The process of creating an instance of a class.MemberEither data or method of a class.</td>
+<td>del slice</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Method</strong></td>
-<td align="center">Functions that are associated with an object.</td>
+<td>reverse</td>
+<td align="center">O(n)</td>
 </tr>
 <tr>
-<td><strong>Object</strong></td>
-<td align="center">An entity with responsibilities. A special, self-contained holder of both data and methods that operate on that data.</td>
+<td>concatenate</td>
+<td align="center">O(k)</td>
 </tr>
 <tr>
-<td><strong>Polymorphism</strong></td>
-<td align="center">The ability of related objects to implement methods that are specialized to their type.</td>
+<td>sort</td>
+<td align="center">O(n log n)</td>
 </tr>
 <tr>
-<td><strong>Superclasss</strong></td>
-<td align="center">A class from which other classes are derived. Contains the master definitions of attributes and methods that all derived classes will use</td>
+<td>multiply</td>
+<td align="center">O(nk)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="resources">Resources</h3>
-<p><a href="https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes">Python Docs</a>
-<a href="https://docs.python.org/3/tutorial/classes.html#classes">Class Definitions</a></p>
                 
                   
                 
@@ -533,7 +663,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../data-structure/" title="Data Structures" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../about/" title="About" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -542,19 +672,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Data Structures
+                About
               </span>
             </div>
           </a>
         
         
-          <a href="../python/" title="Python" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../data-structure/" title="Data Structures" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Python
+                Data Structures
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
