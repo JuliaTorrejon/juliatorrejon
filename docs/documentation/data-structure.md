@@ -12,7 +12,7 @@
 | Vectors / Array Lists | Tree Insert, etc     | 
 | Hash Tables           |                      | 
 
-![](images/common_data_structure_operations.png)
+![Image by Eric Rowell](https://s2.ax1x.com/2019/11/22/M7VTHK.png)
 
 # Lists
 
