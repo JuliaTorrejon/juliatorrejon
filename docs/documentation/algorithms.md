@@ -1,10 +1,10 @@
 # Algorithms
 
-![](https://miro.medium.com/max/596/1*ipkeWQ_Lb0lbkhB8rigxTA.png)
+![Image by Eric Rowell](https://miro.medium.com/max/596/1*ipkeWQ_Lb0lbkhB8rigxTA.png)
 
 ## Big O Notations
 
-![](https://miro.medium.com/max/1464/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
+![Image by Eric Rowell](https://miro.medium.com/max/1464/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
 
 ### Performance of Python Types

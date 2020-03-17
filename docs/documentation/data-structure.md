@@ -1,6 +1,6 @@
 # Data Strcutures
 
-![](https://miro.medium.com/max/1500/1*Dyu63sMUVL-gYEZISOE2BQ.jpeg)
+![Image by N@vinkumar Dhopre](http://dnavinkumar.blogspot.com/p/blog-page.html)
 
 | Data Structures       | Algorithms           | 
 | -------------         |:-------------:       | 
