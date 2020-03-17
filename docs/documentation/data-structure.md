@@ -1,6 +1,10 @@
 # Data Strcutures
 
-![Image by N@vinkumar Dhopre](http://dnavinkumar.blogspot.com/p/blog-page.html)
+A data structure is a particular way of organizing data in a computer so that it can be used effectively. 
+
+![Image by N@vinkumar Dhopre](http://2.bp.blogspot.com/-HaT14cTrndU/Vf6FUS7z7qI/AAAAAAAAAYI/lkm_eFkowFo/s1600/data%2Bstructure.jpg)
+
+Here's a list of the absolute, must-have knowledge:
 
 | Data Structures       | Algorithms           | 
 | -------------         |:-------------:       | 
