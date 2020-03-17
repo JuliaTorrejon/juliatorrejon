@@ -1,6 +1,6 @@
 # Data Strcutures
 
-![](images/data_structures.jpeg)
+![](https://miro.medium.com/max/1500/1*Dyu63sMUVL-gYEZISOE2BQ.jpeg)
 
 | Data Structures       | Algorithms           | 
 | -------------         |:-------------:       | 
