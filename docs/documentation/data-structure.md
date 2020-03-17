@@ -1,6 +1,6 @@
 # Data Strcutures
 
-[![](images/data-structures.jpeg)](images/data-structures.jpeg)
+![](images/data_structures.jpeg)
 
 | Data Structures       | Algorithms           | 
 | -------------         |:-------------:       | 
@@ -12,7 +12,7 @@
 | Vectors / Array Lists | Tree Insert, etc     | 
 | Hash Tables           |                      | 
 
-[![](images/common-data-structure-operations.png)](images/common-data-structure-operations.png)
+![](images/common_data_structure_operations.png)
 
 # Lists
 

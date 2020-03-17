@@ -1,11 +1,10 @@
 # Algorithms
 
-[![](images/array-sorting-algorithms.png)](images/array-sorting-algorithms.png)
-
+![](images/array_sorting_algorithms.png)
 
 ## Big O Notations
 
-[![](images/big-o-complexity-chart.png)](images/big-o-complexity-chart.png)
+![](images/big_o_complexity_chart.png)
 
 
 ### Performance of Python Types

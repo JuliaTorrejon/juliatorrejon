@@ -29,5 +29,6 @@ Object-oriented programming is based on the following concepts and fundamentals:
 
 ### Resources
 
-[Python Docs](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes)
-[Class Definitions](https://docs.python.org/3/tutorial/classes.html#classes)
+- [Python Docs](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes)
+
+- [Class Definitions](https://docs.python.org/3/tutorial/classes.html#classes)

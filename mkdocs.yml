@@ -17,7 +17,7 @@ nav:
       #- Computer Science: documentation/computer-science.md
       #- Containers: documentation/containers.md
       - Data Structures: documentation/data-structure.md
-      #- DevOps: documentation/devops.md
+      - DevOps: documentation/devops.md
       #- Microservices: documentation/microservices.md
       - Object Oriented Programming: documentation/object-oriented-programming.md
       - Python: documentation/python.md
