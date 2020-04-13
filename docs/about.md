@@ -55,7 +55,7 @@ I have contributed by raising an [accessibility testing issue[] [https://gitlab.
 
 **<i class="fa fa-pencil"></i> MY ARTICLES**
 
-When I have free time I write technical articles and documentation. You can found all my articles on my [blog](http://www.juliatorrejon.com) or [dev.to account](https://dev.to/juliatorrejon).
+When I have free time I write technical articles and documentation. You can found all my articles on my [blog](http://www.juliatorrejon.com).
 
 **<i class="fa fa-graduation-cap"></i> LEARNING OR PLANNING TO LEARN**
 
@@ -67,7 +67,6 @@ When I have free time I write technical articles and documentation. You can foun
 
 > I read books because I love them, not because I think I should read them.
 
-- *Continuous Delivery* - Jez Humble and David Farley
 - *Cracking the Coding Interview* - Gayle Laakmann Mcdowell 
 - *Data Structures & Algorithms* - Michael Goodrich, Roberto Tamassia and Michael Goldwasser
 - *Effective DevOps* - Jennifer Davis and Ryn Daniels
