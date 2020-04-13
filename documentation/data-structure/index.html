@@ -300,8 +300,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-structures-arrays" class="md-nav__link">
-    Data Structures: Arrays
+  <a href="#arrays" class="md-nav__link">
+    Arrays
   </a>
   
     <nav class="md-nav">
@@ -314,12 +314,18 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#linked-lists" class="md-nav__link">
     Linked Lists
   </a>
   
-</li>
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#linked-lists-vs-arrays" class="md-nav__link">
@@ -347,6 +353,19 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacks-and-queues" class="md-nav__link">
+    Stacks and Queues
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#resources" class="md-nav__link">
@@ -464,8 +483,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-structures-arrays" class="md-nav__link">
-    Data Structures: Arrays
+  <a href="#arrays" class="md-nav__link">
+    Arrays
   </a>
   
     <nav class="md-nav">
@@ -478,12 +497,18 @@
   
 </li>
         
-          <li class="md-nav__item">
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#linked-lists" class="md-nav__link">
     Linked Lists
   </a>
   
-</li>
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#linked-lists-vs-arrays" class="md-nav__link">
@@ -511,6 +536,19 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacks-and-queues" class="md-nav__link">
+    Stacks and Queues
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#resources" class="md-nav__link">
@@ -542,7 +580,6 @@
                 
                 
                 <h1 id="data-structures">Data Structures</h1>
-<p>!!! info "Data Structures"</p>
 <div class="codehilite"><pre><span></span><span class="err">A data structure is a particular way of organizing data in a computer so that it can be used effectively.</span>
 </pre></div>
 
@@ -595,7 +632,7 @@
 </tbody>
 </table>
 <p><img alt="Image by Eric Rowell" src="https://s2.ax1x.com/2019/11/22/M7VTHK.png" /></p>
-<h2 id="data-structures-arrays">Data Structures: Arrays</h2>
+<h2 id="arrays">Arrays</h2>
 <p>Collection of elements identified by index or key value. In a simpler form, an array just contains a linear set of values, which is often called a <strong>one-dimensional</strong> array.</p>
 <p>One of the features of an array is that element positions can be calculated using a mathematical expression and this enables array elements to be accessed directly in what is usually called <strong>random access fashion</strong>. </p>
 <p>In other words, since the position of each element can be direclty computed, it's not necessary to navigate the data structure in order to access a particular element. </p>
@@ -606,7 +643,7 @@
 <li>Insert or delete item in the middle: O(n) takes time complexity since the middle items must be moved to their new memory locations</li>
 <li>Insert or delete item at end O(1) can be done in constant time</li>
 </ul>
-<h3 id="linked-lists">Linked Lists</h3>
+<h2 id="linked-lists">Linked Lists</h2>
 <ul>
 <li>Collection of data elements, called nodes (sort of similar like an array)</li>
 <li>Each of these nodes contains reference to the next element(node) in the list</li>
@@ -617,9 +654,82 @@ The last elemnetn in the list has a field point to nothing which indicates that 
 <p>The diagram can be represented as a <strong>sinlgy-linked list</strong> which means that there's only one direction of links provided, that is, each item only knows about its next neighbour. </p>
 <p>O as a <strong>double-linked list</strong>, in this case each data item has a reference to both, the previous and the next items that are neighbours.</p>
 <h3 id="linked-lists-vs-arrays">Linked Lists vs Arrays</h3>
-<ul>
-<li>Elements can be easily inserted and removed</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Basis for  Comparison</th>
+<th>Array</th>
+<th>Linked List</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basic</td>
+<td>It is a consistent set of a fixed number of data items</td>
+<td>It is an unordered set comprising a variable number of data items</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Size</td>
+<td>Specified during declaration</td>
+<td>No need to specify; grow and shrink during execution</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Storage Allocation</td>
+<td>Element location is allocated during compile time</td>
+<td>Element position is assigned during run time</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Order of the Elements</td>
+<td>Stored consecutively</td>
+<td>Stored randomly</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Accessing the  Elements</td>
+<td>Directly or randomly accessed, i.e., Specify the array index or subscript</td>
+<td>Sequentially accessed, i.e., Traverse starting from the first  node in the list by the pointer</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Insertion and  Deletion of Element</td>
+<td>Slow relatively as shifting is required</td>
+<td>Easier, fast and efficient</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Searching</td>
+<td>Binar search and linear search</td>
+<td>Linear search</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Memory Required</td>
+<td>Less</td>
+<td>More</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Memory  Utilisation</td>
+<td>Ineffective</td>
+<td>Efficient</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="lists">Lists</h2>
 <p>A list is a collection of items where each item holds a relative position with respect to the others.</p>
 <p>The members of a list are commonly refered to as <strong>nodes</strong>. When each node holds a reference to the next node in the list, we call this a singly linked list. When each node holds a reference to both the next and previous nodes in the list, we call this a doubly linked list.</p>
@@ -638,6 +748,51 @@ The last elemnetn in the list has a field point to nothing which indicates that 
 <li><strong>insert(pos, item)</strong> adds a new item to the list at position pos. It needs the item and returns nothing. Assume the item is not already in the list and there are enough existing items to have position pos.</li>
 <li><strong>pop()</strong> removes and returns the last item in the list. It needs nothing and returns an item. Assume the list has at least one item.</li>
 <li><strong>pop(pos)</strong> removes and returns the item at position pos. It needs the position and returns the item. Assume the item is in the list.</li>
+</ul>
+<h2 id="stacks-and-queues">Stacks and Queues</h2>
+<ul>
+<li><strong>Stack</strong>: Collection that supports two principle operations: push and pop and it operates in <strong>last-in, first-out</strong> data structures which means the last item pushed in the first one popped</li>
+<li>Are often used to parse and evaluate various forms of expression statements</li>
+<li>Backtracking: Browser back stack, for example. A good example of this is when you're using the back button in your browser, so as you click on the various links in the page, the browser adds each link to a stack in order to maintain the order in which they were visited so when a user clicks on the back button, the most recenlty added URL is popped off the stack and then revisited</li>
+</ul>
+<p>The interface for a stack is:</p>
+<ul>
+<li><strong>Stack()</strong> creates a new, empty stack</li>
+<li><strong>push(item)</strong> adds the given item to the top of the stack and returns nothing</li>
+<li><strong>pop()</strong> removes and returns the top item from the stack</li>
+<li><strong>peek()</strong> returns the top item from the stack but doesn’t remove it (the stack isn’t modified)</li>
+<li><strong>is_empty()</strong> returns a boolean representing whether the stack is empty</li>
+<li>
+<p><strong>size()</strong> returns the number of items on the stack as an integer</p>
+</li>
+<li>
+<p><strong>Queues</strong>: Collection that supports adding and removing items but it operates in a <strong>first-in, first-out</strong> method</p>
+</li>
+<li>Order processing is a good used for a queue becauses it ensures that orders for a product are fulfilled in the order in that they were received by the system</li>
+<li>Message processing, when using your phone's SMS messenger app entering each message, you want to make sure that each of those messages is sent in the order they were written. The messenger app might use a queue to maintain each message and make sure that they are sent in the order they were placed into the queue.</li>
+</ul>
+<p>The queue operations are:</p>
+<ul>
+<li><strong>Queue()</strong> creates a new queue that is empty. It needs no parameters and returns an empty queue.</li>
+<li><strong>enqueue(item)</strong> adds a new item to the rear of the queue. It needs the item and returns nothing.</li>
+<li><strong>dequeue()</strong> removes the front item from the queue. It needs no parameters and returns the item. The queue is modified.</li>
+<li><strong>is_empty()</strong> tests to see whether the queue is empty. It needs no parameters and returns a boolean value.</li>
+<li>
+<p><strong>size()</strong> returns the number of items in the queue. It needs no parameters and returns an integer.</p>
+</li>
+<li>
+<p><strong>Deques</strong>: A deque is structured, as an ordered collection of items where items are added and removed from either end, either front or rear</p>
+</li>
+</ul>
+<p>The deque operations are given below.</p>
+<ul>
+<li><strong>Deque()</strong> creates a new deque that is empty. It needs no parameters and returns an empty deque.</li>
+<li><strong>add_front(item)</strong> adds a new item to the front of the deque. It needs the item and returns nothing.</li>
+<li><strong>add_rear(item)</strong> adds a new item to the rear of the deque. It needs the item and returns nothing.</li>
+<li><strong>remove_front()</strong> removes the front item from the deque. It needs no parameters and returns the item. The deque is modified.</li>
+<li><strong>remove_rear()</strong> removes the rear item from the deque. It needs no parameters and returns the item. The deque is modified.</li>
+<li><strong>is_empty()</strong> tests to see whether the deque is empty. It needs no parameters and returns a boolean value.</li>
+<li><strong>size()</strong> returns the number of items in the deque. It needs no parameters and returns an integer.</li>
 </ul>
 <h3 id="resources">Resources</h3>
 <ul>
