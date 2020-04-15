@@ -47,7 +47,7 @@ Cambridge with representation from a high number of UK universities.
 
 I love freedom and flexibility about open source projects. Contribution to several projects where I raised issues found on the code or documentation, to writing automated tests for a few projects (See portfolio for further information).
 
-I have contributed by raising an [accessibility testing issue[] [https://gitlab.com/gitlab-org/gitlab/-/issues/207822](https://github.com/dmytrodanylyk?tab=repositories) on [GitLab](https://gitlab.com/juliatorrejon)
+I have contributed by raising an [accessibility testing issue [https://gitlab.com/gitlab-org/gitlab/-/issues/207822](https://github.com/dmytrodanylyk?tab=repositories) on [GitLab](https://gitlab.com/juliatorrejon)
 
 **<i class="fa fa-stack-overflow"></i> STACK OVERFLOW**
 
