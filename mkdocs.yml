@@ -22,7 +22,7 @@ nav:
         #- Kubernetes Cheatsheet: documentation/kubernetes-cheatsheet.md
       - Data Structures: documentation/data-structure.md
       - DevOps: documentation/devops.md
-        - Cloud Formation Basics: documentation/cloud-formation-basics.md
+        #- Cloud Formation Basics: documentation/cloud-formation-basics.md
       #- Microservices: documentation/microservices.md
       - Object Oriented Programming: documentation/object-oriented-programming.md
       - Python: documentation/python.md
