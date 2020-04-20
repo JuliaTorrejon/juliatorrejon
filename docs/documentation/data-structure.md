@@ -1,5 +1,6 @@
 # Data Structures
 
+!!! Data-Structures
     A data structure is a particular way of organizing data in a computer so that it can be used effectively.
 
 ![Image by N@vinkumar Dhopre](http://2.bp.blogspot.com/-HaT14cTrndU/Vf6FUS7z7qI/AAAAAAAAAYI/lkm_eFkowFo/s1600/data%2Bstructure.jpg)
