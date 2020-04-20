@@ -26,7 +26,7 @@ nav:
       - Microservices: documentation/microservices.md
       - Object Oriented Programming: documentation/object-oriented-programming.md
       - Python: documentation/python.md
-        #- Python 2: documentation/python-2.md
+        - Python 2: documentation/python-2.md
       - Software Development: documentation/software-development.md
       #- Development Tools: documentation/development-tools.md
       #- Software Testing: documentation/software-testing.md
