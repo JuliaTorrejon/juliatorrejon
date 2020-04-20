@@ -1,5 +1,6 @@
 # Algorithms
 
+!!! Algorithms
     Algorithm analysis is a way to compare the time and space efficiency of programs with respect to their possible inputs, but irrespective of other context.
     
 ![Image by Eric Rowell](https://miro.medium.com/max/596/1*ipkeWQ_Lb0lbkhB8rigxTA.png)
