@@ -42,7 +42,7 @@
     
     
       
-        <title>Python - Julia Torrejon</title>
+        <title>Python 2 - Julia Torrejon</title>
       
     
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Python
+                Python 2
               
             </span>
           
@@ -231,10 +231,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Documentation
@@ -346,11 +348,768 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../python/" title="Python" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9" checked>
+    
+    <label class="md-nav__link" for="nav-3-9">
       Python
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-9">
+        Python
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Python 2
+      </label>
+    
+    <a href="./" title="Python 2" class="md-nav__link md-nav__link--active">
+      Python 2
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-python-syntax" class="md-nav__link">
+    1. Python Syntax
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#print-statement" class="md-nav__link">
+    Print Statement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strings" class="md-nav__link">
+    Strings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updating-variables" class="md-nav__link">
+    Updating Variables
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numbers" class="md-nav__link">
+    Numbers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#booleans" class="md-nav__link">
+    Booleans
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#valueerror" class="md-nav__link">
+    ValueError
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-strings" class="md-nav__link">
+    2. Strings
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-by-index" class="md-nav__link">
+    Access by Index
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-methods" class="md-nav__link">
+    String Methods
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#len" class="md-nav__link">
+    len()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low" class="md-nav__link">
+    low()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upper" class="md-nav__link">
+    upper()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#str" class="md-nav__link">
+    str()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dot-notation" class="md-nav__link">
+    Dot Notation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explicit-string-conversion" class="md-nav__link">
+    Explicit String Conversion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-formatting-with" class="md-nav__link">
+    String Formatting with %
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conditionals-and-control-flow" class="md-nav__link">
+    3. Conditionals and Control Flow
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boolean-operators" class="md-nav__link">
+    Boolean Operators
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditional-statement-syntax" class="md-nav__link">
+    Conditional Statement Syntax
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-functions" class="md-nav__link">
+    4. Functions
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paramters-and-arguments" class="md-nav__link">
+    Paramters and Arguments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-calling-functions" class="md-nav__link">
+    Function Calling Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generic-imports" class="md-nav__link">
+    Generic Imports
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#function-imports" class="md-nav__link">
+    Function Imports
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#max" class="md-nav__link">
+    max()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#min" class="md-nav__link">
+    min()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abs" class="md-nav__link">
+    abs()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    type()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-lists-dictionaries" class="md-nav__link">
+    5. Lists &amp; Dictionaries
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-to-lists" class="md-nav__link">
+    Introduction to Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-by-index_1" class="md-nav__link">
+    Access by Index
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-index" class="md-nav__link">
+    List Index
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lenght-of-a-list-index" class="md-nav__link">
+    Lenght of a List Index
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-slicing" class="md-nav__link">
+    List Slicing
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slicing-lists-strings" class="md-nav__link">
+    Slicing Lists &amp; Strings
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-for-loop-to-access-lists" class="md-nav__link">
+    Use For Loop to Access Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-for-loop-to-sort-lists" class="md-nav__link">
+    Use For Loop to Sort Lists
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dictionaries" class="md-nav__link">
+    Dictionaries
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#new-entries-for-dictionaries" class="md-nav__link">
+    New Entries for Dictionaries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes-and-deletions-in-dictionaries" class="md-nav__link">
+    Changes and Deletions in Dictionaries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removals-in-lists" class="md-nav__link">
+    Removals in Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notes-about-dictionaries" class="md-nav__link">
+    Notes about Dictionaries
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-a-list-to-a-function" class="md-nav__link">
+    Passing a List to a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-an-element-from-a-list-in-a-function" class="md-nav__link">
+    Using an Element from a List in a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modifying-an-element-of-a-list-in-a-function" class="md-nav__link">
+    Modifying an Element of a List in a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-manipulation-in-functions" class="md-nav__link">
+    List Manipulation in Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#passing-a-range-into-a-function" class="md-nav__link">
+    Passing a Range into a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iterating-over-a-list-in-a-function" class="md-nav__link">
+    Iterating over a List in a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-strings-in-lists-in-functions" class="md-nav__link">
+    Using Strings in Lists in Functions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-two-lists-as-two-arguments-in-a-function" class="md-nav__link">
+    Using Two Lists as Two Arguments in a Function
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-a-list-of-lists-in-a-function" class="md-nav__link">
+    Using a List of Lists in a Function
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-loops" class="md-nav__link">
+    7. Loops
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#while-loop" class="md-nav__link">
+    While Loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#condition" class="md-nav__link">
+    Condition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infinite-loops" class="md-nav__link">
+    Infinite Loops
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#break" class="md-nav__link">
+    Break
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#while-else" class="md-nav__link">
+    While / Else
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-loop" class="md-nav__link">
+    For Loop
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#string-manipulation-in-for-loops" class="md-nav__link">
+    String Manipulation in For Loops
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#numbers-manipulation-in-for-loops" class="md-nav__link">
+    Numbers Manipulation in For Loops
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looping-over-a-dictionary" class="md-nav__link">
+    Looping Over a Dictionary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enumerate-index-to-each-element-in-a-list" class="md-nav__link">
+    Enumerate Index to Each Element in a List
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiple-lists" class="md-nav__link">
+    Multiple Lists
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-else" class="md-nav__link">
+    For / Else
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-advaced-topics-in-python" class="md-nav__link">
+    8. Advaced Topics in Python
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iterators-for-dictionaries" class="md-nav__link">
+    Iterators for Dictionaries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keys-and-values" class="md-nav__link">
+    Keys() and Values()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-in-operator" class="md-nav__link">
+    The 'in' Operator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-lists-list-comprehension" class="md-nav__link">
+    Building Lists (List Comprehension)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-comprehension-syntax" class="md-nav__link">
+    List Comprehension Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-slicing-syntax" class="md-nav__link">
+    List Slicing Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omitting-indices" class="md-nav__link">
+    Omitting Indices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reversing-a-list" class="md-nav__link">
+    Reversing a List
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-introduction-to-classes" class="md-nav__link">
+    9. Introduction to Classes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-use-classes" class="md-nav__link">
+    Why Use Classes?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-syntax" class="md-nav__link">
+    Class Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classier-classes" class="md-nav__link">
+    Classier Classes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instantiating-your-first-object" class="md-nav__link">
+    Instantiating Your First Object
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-on-init-and-self" class="md-nav__link">
+    More on init() and self
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class-scope" class="md-nav__link">
+    Class Scope
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-methodical-approach" class="md-nav__link">
+    A Methodical Approach
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#member-variables-of-a-class" class="md-nav__link">
+    Member Variables of a Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inheritance" class="md-nav__link">
+    Inheritance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inheritance-syntax" class="md-nav__link">
+    Inheritance Syntax
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#override-classes" class="md-nav__link">
+    Override Classes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#superclass" class="md-nav__link">
+    Superclass
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compound-statement" class="md-nav__link">
+    Compound Statement
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -2156,6 +2915,41 @@ The default stride is <code>1</code>.</p>
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../object-oriented-programming/" title="Object Oriented Programming" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Object Oriented Programming
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../software-development/" title="Software Development" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Software Development
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
