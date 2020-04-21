@@ -231,12 +231,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Documentation
@@ -265,12 +263,19 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../cloud/" title="Cloud" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
       Cloud
-    </a>
-  </li>
-
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Cloud
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
           
@@ -278,21 +283,14 @@
 
 
   <li class="md-nav__item">
-    <a href="../computer-science/" title="Computer Science" class="md-nav__link">
-      Computer Science
+    <a href="../gcp-services-overview/" title="GCP Services Overview" class="md-nav__link">
+      GCP Services Overview
     </a>
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../containers/" title="Containers" class="md-nav__link">
-      Containers
-    </a>
+      </ul>
+    </nav>
   </li>
 
         
@@ -312,20 +310,30 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
+  <li class="md-nav__item md-nav__item--nested">
     
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
     
-      
-    
-    
-    <a href="./" title="DevOps" class="md-nav__link md-nav__link--active">
+    <label class="md-nav__link" for="nav-3-4">
       DevOps
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        DevOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../devops-roadmap/" title="DevOps Roadmap" class="md-nav__link">
+      DevOps Roadmap
     </a>
-    
   </li>
 
         
@@ -335,9 +343,14 @@
 
 
   <li class="md-nav__item">
-    <a href="../microservices/" title="Microservices" class="md-nav__link">
-      Microservices
+    <a href="../cloud-formation-basics/" title="Cloud Formation Basics" class="md-nav__link">
+      Cloud Formation Basics
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -360,13 +373,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-9" type="checkbox" id="nav-3-9">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
     
-    <label class="md-nav__link" for="nav-3-9">
+    <label class="md-nav__link" for="nav-3-6">
       Python
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-3-9">
+      <label class="md-nav__title" for="nav-3-6">
         Python
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -394,10 +407,34 @@
           
 
 
-  <li class="md-nav__item">
-    <a href="../software-development/" title="Software Development" class="md-nav__link">
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-7" type="checkbox" id="nav-3-7">
+    
+    <label class="md-nav__link" for="nav-3-7">
       Software Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-7">
+        Software Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../development-tools/" title="Development Tools" class="md-nav__link">
+      Development Tools
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -459,7 +496,6 @@
                 
                 
                 <h1 id="devops">DevOps</h1>
-<p><img alt="Image by kamranahmedse" src="https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/img/devops.png" /></p>
                 
                   
                 
@@ -477,41 +513,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid">
-        
-          <a href="../data-structure/" title="Data Structures" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-            </div>
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Previous
-                </span>
-                Data Structures
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../microservices/" title="Microservices" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Microservices
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
