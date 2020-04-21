@@ -70,3 +70,5 @@ When I have free time I write technical articles and documentation. You can foun
 - *Cracking the Coding Interview* - Gayle Laakmann Mcdowell 
 - *Data Structures & Algorithms* - Michael Goodrich, Roberto Tamassia and Michael Goldwasser
 - *Effective DevOps* - Jennifer Davis and Ryn Daniels
+- *Leading Quality: How Great Leaders Deliver High-Quality Software and Accelerate Growth* - Ronald Cummings-John & Owais Peer
+- *A Practical Guide to Testing in DevOps* - Katrina Clokie

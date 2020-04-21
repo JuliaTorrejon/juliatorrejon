@@ -1,4 +1,4 @@
-# Python
+# Python 2
 
 ## 1. Python Syntax
 
@@ -1318,8 +1318,6 @@ class Derived(Base):
 ```
 
 Where `m()` is a method from the base class.
-
-
 
 
 
