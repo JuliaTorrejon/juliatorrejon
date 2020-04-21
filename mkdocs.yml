@@ -12,7 +12,9 @@ nav:
     - Overview: index.md
     - About: about.md
     - Documentation:
-      - Algorithms: documentation/algorithms.md
+      - Algorithms:
+        - Overview: documentation/algorithms-overview.md
+        - Big O Notation: documentation/big-o-notation.md
       - Cloud: 
         - GCP Services Overview: documentation/gcp-services-overview.md
         #- AWS Services Overview: documentation/aws-services-overview.md
@@ -20,7 +22,17 @@ nav:
       #- Containers:
         #- Docker Cheatsheet: documentation/docker-cheatsheet.md
         #- Kubernetes Cheatsheet: documentation/kubernetes-cheatsheet.md
-      - Data Structures: documentation/data-structure.md
+      - Data Structures:
+        - Overview: documentation/data-structures-overview.md
+        - Stacks: documentation/stacks.md
+        - Queues: documentation/queues.md
+        - Deques: documentation/deques.md
+        - Linked Lists: documentation/linked-lists.md
+        - Recursion: documentation/recursion.md
+        - Searching: documentation/searching.md
+        - Hash Tables: documentation/hash-tables.md
+        - Trees: documentation/trees.md
+        - Graphs: documentation/graphs.md
       - DevOps:
         - DevOps Roadmap: documentation/devops-roadmap.md
         - Cloud Formation Basics: documentation/cloud-formation-basics.md

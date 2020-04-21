@@ -8,4 +8,3 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 **Resource**
 [AWS DevOps](https://aws.amazon.com/devops/what-is-devops/)
 
-![Image by kamranahmedse](https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/img/devops.png)
