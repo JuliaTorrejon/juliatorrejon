@@ -2,11 +2,9 @@
 
 ### Portfolio juliatorrejon.com
 
-Webpage about my learning path on Computer Science, Software Development and DevOps.
-
-I started blogging as a way to teach myself because I am a huge proponent of the fact that if you can write
-down your thoughts about a topic well enough to create a blog post, then you have sufficiently learnt the base
-level knowledge for that skill. It is a great way to reinforce what you have learnt.
+I started blogging as a way to keep a record of my learning path because I am a huge proponent of the fact that if 
+you can write down your thoughts about a topic well enough, then you have sufficiently learnt the base level knowledge 
+for that skill. It is a great way to reinforce what you have learnt.
 
 ### Bin Collection Day
 
