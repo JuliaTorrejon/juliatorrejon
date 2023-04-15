@@ -69,13 +69,8 @@ theme:
           name: Switch to light mode
 
    # Language settings
-    language:
-      - name: English
-        link: /en/
-        lang: en
-      - name: Spanish
-        link: /es/
-        lang: es
+    language: en
+
 
     # Navigation settings
     features:
