@@ -12,7 +12,8 @@ nav:
     - About: index.md
     - Portfolio: portfolio.md
     - Contact: contact.md
-
+    - Blog:
+        - blog/index.md
 
 # Configuration
 theme:
@@ -52,6 +53,8 @@ plugins:
   - search:
       lang: en
   - tags
+  - blog:
+      post_date_format: full
 
 # Syntax highlighting
 markdown_extensions:
