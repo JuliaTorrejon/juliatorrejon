@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://juliatorrejon.com/</loc>
+         <lastmod>2023-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://juliatorrejon.com/contact/</loc>
+         <lastmod>2023-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://juliatorrejon.com/portfolio/</loc>
+         <lastmod>2023-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://juliatorrejon.com/blog/</loc>
+         <lastmod>2023-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://juliatorrejon.com/blog/posts/hello-world/</loc>
+         <lastmod>2023-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
