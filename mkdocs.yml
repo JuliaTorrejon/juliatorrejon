@@ -69,7 +69,6 @@ extra:
       - type: linkedin
         link: https://www.linkedin.com/in/juliatorrejon
 
-# Google Analytics
-google_analytics:
-    - 'G-BQTFTTRB5X'
-    - 'auto'
+    analytics:
+      provider: google
+      property: G-BQTFTTRB5X
