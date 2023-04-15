@@ -5,7 +5,7 @@ site_author: 'Julia Torrejon'
 site_url: 'https://juliatorrejon.com'
 
 #Copyright
-copyright: 'Copyright &copy; 2022 Julia Torrejon'
+copyright: 'Copyright &copy; 2023 Julia Torrejon'
 
 # Page tree
 nav:
@@ -71,5 +71,5 @@ extra:
 
 # Google Analytics
 google_analytics:
-    - 'UA-136334185-1'
+    - 'G-BQTFTTRB5X'
     - 'auto'
