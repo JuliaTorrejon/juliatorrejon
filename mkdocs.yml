@@ -50,9 +50,47 @@ nav:
 # Configuration
 theme:
     name: 'material'
-    palette: 
-        primary: 'cyan'
-        accent: 'cyan'
+    palette:
+
+      # Palette toggle for light mode
+      - scheme: default
+        primary: cyan
+        accent: cyan
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - scheme: slate
+        primary: cyan
+        accent: cyan
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
+   # Language settings
+    language:
+      - name: English
+        link: /en/
+        lang: en
+      - name: Spanish
+        link: /es/
+        lang: es
+
+    # Navigation settings
+    features:
+      - navigation.instant
+      - navigation.tracking
+      - navigation.path
+      - toc.integrate
+      - navigation.top
+      - navigation.footer
+
+plugins:
+  - search:
+      lang: en
+  - tags:
+      tags_file: tags.md
 
 # Syntax highlighting
 markdown_extensions:
@@ -62,11 +100,14 @@ markdown_extensions:
 # Customization
 extra:
     social:
-      - type: github-alt
+      - icon: fontawesome/brands/github
+        type: github-alt
         link: https://github.com/juliatorrejon
-      - type: twitter
+      - icon: fontawesome/brands/twitter
+        type: twitter
         link: https://twitter.com/juliatorrejon
-      - type: linkedin
+      - icon: fontawesome/brands/linkedin
+        type: linkedin
         link: https://www.linkedin.com/in/juliatorrejon
 
     analytics:
