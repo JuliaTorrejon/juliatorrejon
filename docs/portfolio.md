@@ -8,22 +8,6 @@ I started blogging as a way to teach myself because I am a huge proponent of the
 down your thoughts about a topic well enough to create a blog post, then you have sufficiently learnt the base
 level knowledge for that skill. It is a great way to reinforce what you have learnt.
 
-### Automated Testing for Research Dashboard
-
-A Python script written using Selenium in order to test that the specified functionalities work as expected in various
-desktop browsers and devices with BrowserStack.
-
-This testing has been focused on the [Research Dashboard](https://gitlab.developers.cam.ac.uk/jt654/automated-selenium-testing-browserstack-2) project that the DevOps team at the University
-Information Services is working on.
-
-### Automated Testing for Asset Register
-
-A Python script written using Selenium in order to test that the specified functionalities work as expected in
-different desktop browsers and devices with BrowserStack.
-
-This testing has been concentrated on the [Asset Register](https://gitlab.developers.cam.ac.uk/jt654/browserstack) project that the DevOps team at the university
-information Services is working on.
-
 ### Bin Collection Day
 
 Find out your [bin collection](https://github.com/JuliaTorrejon/bin_collection) day and what bin needs to be collected.
