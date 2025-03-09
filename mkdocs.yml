@@ -5,7 +5,7 @@ site_author: 'Julia Torrejon'
 site_url: 'https://juliatorrejon.com'
 
 #Copyright
-copyright: 'Copyright &copy; 2023 Julia Torrejon'
+copyright: 'Copyright &copy; 2025 Julia Torrejon'
 
 # Page tree
 nav:
@@ -17,24 +17,24 @@ nav:
 
 # Configuration
 theme:
-    name: 'material'
+    name: dracula
     palette:
 
-      # Palette toggle for light mode
-      - scheme: default
-        primary: cyan
-        accent: cyan
-        toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
+      # # Palette toggle for light mode
+      # - scheme: default
+      #   primary: cyan
+      #   accent: cyan
+      #   toggle:
+      #     icon: material/brightness-7
+      #     name: Switch to dark mode
 
-      # Palette toggle for dark mode
-      - scheme: slate
-        primary: cyan
-        accent: cyan
-        toggle:
-          icon: material/brightness-4
-          name: Switch to light mode
+      # # Palette toggle for dark mode
+      # - scheme: slate
+      #   primary: cyan
+      #   accent: cyan
+      #   toggle:
+      #     icon: material/brightness-4
+      #     name: Switch to light mode
 
    # Language settings
     language: en
